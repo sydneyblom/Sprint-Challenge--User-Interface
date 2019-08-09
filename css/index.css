@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    width: 76%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:300px;
+    display:flex;
+    justify-content:space-between;
+    align-items: baseline;
+
+}
+
+header a {
+    font-size: 13px;
+    padding: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+margin-left:22%;
+padding-bottom: 20px;
+}
+
 
 .top-content {
     display: flex;
@@ -110,6 +133,44 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .teal.box {
+    background: teal;
+}
+
+.middle-content .cadetblue.box {
+    background: cadetblue;
+}
+.middle-content .teal.box {
+    background: teal;
+}
+
+.middle-content .coral.box {
+    background: coral;
+}
+
+.middle-content .crimson.box {
+    background: crimson;
+}
+
+.middle-content .forestgreen.box {
+    background: forestgreen;
+}
+.middle-content .darkorchid.box {
+    background: darkorchid;
+}
+
+.middle-content .hotpink.box {
+    background: hotpink;
+}
+
+.middle-content .indigo.box {
+    background: indigo;
+}
+
+.middle-content .dodgerblue.box {
+    background: dodgerblue;
 }
 
 .bottom-content {
