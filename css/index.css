@@ -139,12 +139,13 @@ padding-bottom: 20px;
     background: teal;
 }
 
+.middle-content .gold.box {
+    background: gold;
+}
 .middle-content .cadetblue.box {
     background: cadetblue;
 }
-.middle-content .teal.box {
-    background: teal;
-}
+
 
 .middle-content .coral.box {
     background: coral;
@@ -188,7 +189,7 @@ padding-bottom: 20px;
 }
 
 footer {
-    width: 100%;
+    width: 100%%;
     background: black;
 }
 
@@ -215,6 +216,12 @@ footer nav a {
 .container .aboutpic {
   margin 20px 0px;
 }
+.container h2 {
+    padding: 20px 0px;
+}
+.container p{
+margin-bottom: 20px;
+}
 
 #body {
 	width:70%;
@@ -230,9 +237,10 @@ footer nav a {
 width: 37%;
 margin-left: 50px;
 margin-right:30px;
-padding: 27px;
+padding: 27px 0px;
 font-size: 18px;
 margin-bottom:45px;
+border-bottom: 1px dashed black;
 }
 
 #body .bodybox a{
@@ -251,13 +259,23 @@ text-align: center;
     }
     
 #bottomtextabout .bottomtextaboutlets{
-    margin-top: 50px;
-    margin-left:290px;
-        width: 50%;
+    margin-top: 10px;
+    margin-left:285px;
+    width: 62%;
+    padding-bottom: 30px;
     }
 
     hr {
-        display: block;
 width:60%;     
-  border-width: 2px dashed black;;  
+border-bottom: 1px dashed black;
     }
+
+
+.footersmall {
+    width: 63%;
+    margin-left: 19%;
+}
+
+.bodybox p {
+    font-size: 14px;
+}
